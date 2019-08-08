@@ -7,10 +7,10 @@ import Dashboard from './dashboard';
 
  class App extends React.Component {
   state = {
-    strike: 0,
-    ball: 0,
-    foul: 0,
-    hit: 0,
+    strikes: 0,
+    balls: 0,
+    fouls: 0,
+    hits: 0,
   }
   addStrike = (e) => {
     e.preventDefault();
