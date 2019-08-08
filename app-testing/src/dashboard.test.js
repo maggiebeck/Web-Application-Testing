@@ -1,15 +1,14 @@
 import React from 'react';
 import { render } from 'react-testing-library';
-import 'jest-dom/extend-expect';
 import Dashboard from './Dashboard';
 
  describe('Dashboard', () => {
 
-     test('renders the dashboard', () => {
+     test(() => {
         render(<Dashboard />);
     })
 
-     it ('renders the buttons', () => {
+     it (() => {
         const dashboard = render(<Dashboard />);
         const strikeButton = dashboard.getByText(/strike/i);
         const ballButton = dashboard.getByText(/ball/i);

@@ -3,7 +3,6 @@ import './App.css';
 import Display from './display';
 import Dashboard from './dashboard';
 
- //every time i run prettier on this page it indents with 2 spaces, but on my other pages it indents with 4! 
 
  class App extends React.Component {
   state = {
